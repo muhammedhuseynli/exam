@@ -49,7 +49,9 @@ nav > div.home > div.dropdown > a:hover {
 nav > div.home > div.dropdown > div.list {
   position: absolute;
   display: none;
-  width: 100%;
+  background-color: #153e52;
+  width: 150px;
+  left: auto;
 }
 
 nav > div.home > div.dropdown:hover > div.list {
@@ -60,4 +62,39 @@ nav > div.home > div.dropdown > div.list > a {
   text-decoration: none;
   color: white;
   display: block;
+}
+
+section.foto > h1{
+  color: white;
+  position: absolute;
+  margin-left: 390px;
+  margin-top: 270px;
+  font-size: 350%;
+}
+
+section.foto > p{
+  color: white;
+  position: absolute;
+  margin-left: 400px;
+  margin-top: 340px;
+  text-align: center;
+  font-size: 120%;
+}
+
+section.foto > button{
+  background-color: #14bf98;
+  margin-left: 610px;
+  margin-top: 410px;
+  border: 1px solid #14bf98;
+  border-radius: 5px;
+  color: white;
+  padding: 15px 20px;
+}
+
+section.foto{
+    background-image: url(../header-background.jpg);
+    width: 100%;
+    height: 590px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
